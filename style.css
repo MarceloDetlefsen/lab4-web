@@ -140,6 +140,32 @@ img {
     }
 }
 
+/* Montaña izquierda (blanca) */
+.mountain-left {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 160px;
+    height: 120px;
+    background-color: white;
+    z-index: 3;
+    clip-path: polygon(50% 0, 50% 100%, 26% 69%, 0 62%);
+}
+
+/* Montaña derecha (amarilla) */
+.mountain-right {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 160px;
+    height: 120px;
+    background-color: #FFC627;
+    z-index: 3;
+    clip-path: polygon(50% 0, 50% 100%, 74% 69%, 100% 62%);
+}
+
 /* Pelota de basketball */
 .basketball {
     position: absolute;
