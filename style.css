@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+li {
+    text-align: center;
+}
+
+img {
+    width: 500px;
+    height: 500px;
+}
+
+/* Círculo amarillo exterior */
+.logo-background {
+    width: 500px;
+    height: 500px;
+    background-color: #FFC627;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/* Círculo rojo */
+.logo-red {
+    width: 450px;
+    height: 450px;
+    background-color: #8B2332;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/* Círculo azul interior */
+.background {
+    width: 400px;
+    height: 400px;
+    background-color: #0D2240;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
