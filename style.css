@@ -74,7 +74,18 @@ img {
         transform: translate(-50%, -50%) rotate(-33deg);
         
         /* Punta del hacha */
-
+        &::before {
+            content: "";
+            position: absolute;
+            right: -40px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 0;
+            height: 0;
+            border-left: 55px solid #FFC627;
+            border-top: 45px solid transparent;
+            border-bottom: 45px solid transparent;
+        }
         
         /* Mango de la hacha */
         &::after {
@@ -101,6 +112,18 @@ img {
         transform: translate(-50%, -50%) rotate(33deg);
         
         /* Punta del hacha */
+        &::before {
+            content: "";
+            position: absolute;
+            left: -40px;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 0;
+            height: 0;
+            border-right: 55px solid #FFC627;
+            border-top: 45px solid transparent;
+            border-bottom: 45px solid transparent;
+        }
         
         /* Mango del hacha */
         &::after {
