@@ -35,8 +35,8 @@ img {
 
 /* Círculo rojo */
 .logo-red {
-    width: 450px;
-    height: 450px;
+    width: 460px;
+    height: 460px;
     background-color: #8B2332;
     border-radius: 50%;
     display: flex;
@@ -47,8 +47,8 @@ img {
 
 /* Círculo azul interior */
 .background {
-    width: 400px;
-    height: 400px;
+    width: 420px;
+    height: 420px;
     background-color: #0D2240;
     border-radius: 50%;
     display: flex;
@@ -163,7 +163,7 @@ img {
     height: 120px;
     background-color: #FFC627;
     z-index: 3;
-    clip-path: polygon(50% 0, 50% 100%, 74% 69%, 100% 62%);
+    clip-path: polygon(50% 0, 59% 25%, 69% 13%, 100% 65%, 75% 51%, 50% 100%);
 }
 
 /* Pelota de basketball */
